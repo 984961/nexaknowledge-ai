@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #080B18;
+    color: #F8FAFC;
+  }
+  
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars for enterprise dark look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B1020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252D43;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Glass and glow styles */
+.glass-panel {
+  background: rgba(20, 26, 45, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #252D43;
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px -5px rgba(139, 92, 246, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.25);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(34, 211, 238, 0.25);
+}
+
+/* Audio waveform animations */
+@keyframes wave-bounce {
+  0%, 100% {
+    transform: scaleY(0.2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.animate-waveform {
+  animation: wave-bounce 1s ease-in-out infinite;
+}

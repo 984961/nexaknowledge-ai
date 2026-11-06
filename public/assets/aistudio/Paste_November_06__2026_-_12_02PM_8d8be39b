@@ -1,0 +1,1793 @@
+BUILD NEXAKNOWLEDGE AI
+
+Enterprise AI Knowledge, Company Policy & Business Intelligence Platform
+
+Product Name: NexaKnowledge AI
+Tagline: Your Business. Your Data. One Intelligent AI.
+Product Type: Enterprise AI SaaS Platform
+Development Approach: Frontend first, followed by backend integration.
+
+1. PROJECT VISION
+
+Build a complete, professional, modern, responsive enterprise AI web application called NexaKnowledge AI.
+
+NexaKnowledge AI is an intelligent business platform that combines:
+
+Enterprise AI Knowledge Assistant.
+
+Company Policy Intelligence.
+
+Advanced Retrieval-Augmented Generation (RAG).
+
+Document Intelligence.
+
+Business Intelligence and Analytics.
+
+AI-powered Dashboard Generation.
+
+AI Report Generation.
+
+Voice-enabled AI Assistant.
+
+The platform should allow businesses to upload documents, company policies, reports, spreadsheets and datasets, ask questions using text or voice, analyze their business information, generate dashboards and download reports.
+
+The platform must work for different types of businesses, not just one company or industry.
+
+It should be designed as a universal enterprise knowledge and business intelligence platform.
+
+IMPORTANT: Use the uploaded reference screenshots as visual inspiration. Combine their best design elements into one consistent, original enterprise application. Do not copy any single reference image exactly.
+
+2. TECHNOLOGY STACK
+
+Frontend
+
+React.js
+
+Vite
+
+Tailwind CSS
+
+Recharts
+
+Lucide React
+
+React Router
+
+Axios or Fetch API
+
+Backend
+
+Python
+
+FastAPI
+
+Pydantic
+
+SQLAlchemy
+
+AI and LLM
+
+Google Gemini API
+
+LangChain
+
+LangGraph for future multi-step workflows
+
+RAG and Vector Database
+
+ChromaDB
+
+Gemini embeddings
+
+Semantic search
+
+Hybrid retrieval where appropriate
+
+Business Analytics
+
+Pandas
+
+NumPy
+
+PostgreSQL
+
+SQL
+
+Document Processing
+
+PyMuPDF
+
+python-docx
+
+CSV processing
+
+OpenPyXL
+
+JSON processing
+
+Voice AI
+
+Speech-to-Text
+
+Text-to-Speech
+
+Browser Web Speech APIs for initial prototype
+
+Google Cloud Speech services for future production integration
+
+Reports
+
+ReportLab
+
+OpenPyXL
+
+CSV exports
+
+Deployment
+
+Docker
+
+GitHub
+
+Google Cloud Run
+
+Keep the frontend and backend modular so each service can be developed and tested independently.
+
+If an existing React/Vite project is provided, inspect its structure and build on it. Do not create a second unnecessary project or delete working files and configuration.
+
+3. DESIGN AND VISUAL IDENTITY
+
+Create a premium, futuristic, professional dark enterprise SaaS interface.
+
+The visual design should combine:
+
+Advanced business analytics dashboards.
+
+Modern AI chat interfaces.
+
+Enterprise knowledge management software.
+
+Intelligent voice assistant interfaces.
+
+Colour palette
+
+Main background: #080B18
+Sidebar: #0B1020
+Primary cards: #141A2D
+Secondary surfaces: #10192B
+Borders: #252D43
+Primary purple: #8B5CF6
+Accent blue: #3B82F6
+Cyan: #22D3EE
+Success: #22C55E
+Main text: #F8FAFC
+Secondary text: #94A3B8
+
+Design requirements
+
+Dark navy background.
+
+Purple and blue gradients.
+
+Subtle glowing highlights.
+
+Modern rounded cards.
+
+Fine borders and subtle shadows.
+
+Smooth transitions.
+
+Elegant chart visualizations.
+
+Clear typography.
+
+Professional spacing.
+
+Consistent iconography.
+
+Premium enterprise appearance.
+
+Avoid unnecessary visual clutter, excessive animations and generic dashboard styling.
+
+4. COMPLETE APPLICATION LAYOUT
+
+Build a unified application with three main desktop areas:
+
+A. Left navigation sidebar.
+B. Central main workspace.
+C. Permanent right-side AI assistant.
+
+Suggested desktop layout:
+
+Sidebar: 230px.
+
+Main workspace: flexible.
+
+AI assistant: 330–360px.
+
+Top toolbar: approximately 70px.
+
+The layout should use the full available screen space.
+
+5. LEFT NAVIGATION SIDEBAR
+
+The application must have exactly eight primary navigation modules.
+
+Brand:
+
+NexaKnowledge AI
+
+Subtitle:
+Enterprise Intelligence Platform
+
+Workspace selector:
+
+My Business
+
+Workspace switching control.
+
+Navigation modules
+
+1. Dashboard
+
+Icon: Layout Dashboard
+
+Provides the overall business performance dashboard.
+
+2. AI Assistant
+
+Icon: Bot
+
+Provides the unified text and voice AI assistant.
+
+3. Company Policies
+
+Icon: Shield Check
+
+Provides dedicated company policy management, policy search, policy understanding, policy comparison and compliance intelligence.
+
+4. Documents
+
+Icon: Files
+
+Provides general document upload, document extraction, document management and semantic search.
+
+5. Business Analytics
+
+Icon: Chart No Axes Combined
+
+Provides business analytics across sales, finance, customers, products, inventory and marketing.
+
+6. Data Sources
+
+Icon: Database
+
+Provides file uploads and database connections.
+
+7. Reports
+
+Icon: File Bar Chart
+
+Provides AI-generated business and policy reports.
+
+8. Settings
+
+Icon: Settings
+
+Provides workspace, user, access, security and configuration settings.
+
+At the bottom of the sidebar include:
+
+User profile.
+
+Workspace information.
+
+Account menu.
+
+Help and support.
+
+Every navigation item must work and display its corresponding module.
+
+6. TOP NAVIGATION BAR
+
+Create a premium top toolbar containing:
+
+Current workspace name.
+
+Current page title.
+
+Global search.
+
+AI Chat shortcut.
+
+Save Dashboard.
+
+Edit / View toggle.
+
+Publish.
+
+Share.
+
+Notifications.
+
+User profile.
+
+Save, edit, view, publish and share controls should have working frontend interactions and appropriate confirmation messages.
+
+Do not claim cloud persistence or actual publication before backend functionality exists.
+
+7. MAIN DASHBOARD
+
+The Dashboard is the application's default home screen.
+
+Heading:
+
+Business Overview
+
+Subtitle:
+
+Your business intelligence at a glance.
+
+Dashboard filters
+
+Create three interactive filters:
+
+Date Range.
+
+Region.
+
+Product.
+
+Include:
+
+Date presets.
+
+Custom date range.
+
+Region selector.
+
+Product selector.
+
+Clear filters.
+
+Filters should update the displayed metrics and charts when real data is connected.
+
+Four KPI cards
+
+Card 1: Total Revenue
+
+Revenue amount.
+
+Previous-period comparison.
+
+Growth indicator.
+
+Revenue icon.
+
+Card 2: Total Orders
+
+Total number of orders.
+
+Previous-period comparison.
+
+Order trend.
+
+Card 3: Total Customers
+
+Total customers.
+
+Customer growth.
+
+Customer trend.
+
+Card 4: Net Profit
+
+Profit amount.
+
+Profit percentage.
+
+Previous-period comparison.
+
+Use attractive gradients, subtle glow and clear metric typography.
+
+Never present fabricated sample metrics as real business data. Label demonstration data clearly.
+
+8. INTERACTIVE BUSINESS CHARTS
+
+Create five professional chart sections.
+
+Chart 1: Revenue Trends
+
+Interactive line chart or area chart.
+
+Daily, weekly and monthly revenue.
+
+Revenue and expenses comparison where available.
+
+Date comparison.
+
+Tooltips.
+
+Legends.
+
+Chart 2: Sales by Category
+
+Interactive donut chart.
+
+Product category breakdown.
+
+Percentage contribution.
+
+Category revenue.
+
+Tooltips.
+
+Chart 3: Product Performance
+
+Horizontal or vertical bar chart.
+
+Top-selling products.
+
+Revenue per product.
+
+Units sold.
+
+Product comparison.
+
+Chart 4: Customer Analytics
+
+Customer growth.
+
+New customers.
+
+Returning customers.
+
+Customer segmentation.
+
+Retention analysis.
+
+Chart 5: Inventory Analysis
+
+Available inventory.
+
+Low-stock products.
+
+Out-of-stock products.
+
+Inventory movement.
+
+Stock alerts.
+
+All charts must be responsive and designed to use actual uploaded data.
+
+9. PERMANENT RIGHT-SIDE AI ASSISTANT
+
+This is one of the most important features of NexaKnowledge AI.
+
+Create a persistent AI assistant panel on the right side of the desktop interface.
+
+The assistant must remain accessible across all eight navigation modules.
+
+AI assistant header
+
+Nexa AI logo.
+
+AI Assistant title.
+
+Online or connection status.
+
+New conversation.
+
+Expand and collapse controls.
+
+Chat interface
+
+Include:
+
+User message bubbles.
+
+AI response bubbles.
+
+Message timestamps.
+
+Loading animation.
+
+Conversation history.
+
+Copy response.
+
+Replay spoken response.
+
+Stop audio playback.
+
+Clear conversation.
+
+Suggested questions
+
+Analyze my business performance.
+
+Show my revenue trends.
+
+Find my top-selling products.
+
+Which products have low stock?
+
+Explain my company leave policy.
+
+Summarize my HR policies.
+
+Compare two company policy documents.
+
+Search my uploaded documents.
+
+Generate a business dashboard.
+
+Create a monthly business report.
+
+AI assistant capabilities
+
+The assistant must eventually support:
+
+General business questions.
+
+Company policy questions.
+
+Document-based questions.
+
+Structured data analysis.
+
+SQL-based business queries.
+
+Dashboard generation.
+
+Chart explanations.
+
+Report generation.
+
+Combined document and data analysis.
+
+Voice conversations.
+
+Message composer
+
+Include:
+
+Text input.
+
+Microphone.
+
+Attachment button.
+
+Send button.
+
+Use a modern dark input box with purple and blue accents.
+
+10. COMPANY POLICIES — DEDICATED MODULE
+
+This is a core feature and must not be omitted or hidden inside the general Documents module.
+
+Create a dedicated Company Policies workspace.
+
+The objective is to let organizations upload, manage, search, understand, compare and analyze their internal company policies using AI.
+
+Policy categories
+
+A. HR Policies
+
+Leave policy.
+
+Attendance policy.
+
+Work-from-home policy.
+
+Working hours.
+
+Employee benefits.
+
+Employee handbook.
+
+B. Employee Policies
+
+Code of conduct.
+
+Employee responsibilities.
+
+Performance management.
+
+Disciplinary procedures.
+
+Workplace behaviour.
+
+C. IT and Security Policies
+
+Information security.
+
+Password management.
+
+Device usage.
+
+Data privacy.
+
+Access control.
+
+Cybersecurity guidelines.
+
+D. Finance Policies
+
+Expense reimbursement.
+
+Travel expenses.
+
+Budget approval.
+
+Procurement.
+
+Financial authorization.
+
+E. Legal and Compliance Policies
+
+Regulatory compliance.
+
+Data protection.
+
+Contracts.
+
+Confidentiality.
+
+Risk management.
+
+F. Workplace Policies
+
+Office rules.
+
+Holidays.
+
+Health and safety.
+
+Remote work.
+
+Workplace facilities.
+
+G. Travel Policies
+
+Business travel.
+
+Hotel accommodation.
+
+Transportation.
+
+Travel allowances.
+
+Expense claims.
+
+Company Policies interface
+
+Create an attractive policy management dashboard containing:
+
+Total policies.
+
+Published policies.
+
+Draft policies.
+
+Policies under review.
+
+Policy categories.
+
+Recently uploaded policies.
+
+Upcoming review dates.
+
+Include a searchable policy library with:
+
+Policy name.
+
+Category.
+
+Version.
+
+Department.
+
+Upload date.
+
+Last updated.
+
+Review date.
+
+Status.
+
+Company policy features
+
+Implement the following frontend functionality:
+
+Upload PDF, DOCX and TXT policies.
+
+Drag-and-drop policy uploads.
+
+Automatically classify policies when the backend is connected.
+
+Search policies.
+
+Filter by category and department.
+
+Preview documents.
+
+Summarize policies.
+
+Compare policy versions.
+
+Highlight policy changes.
+
+Manage document versions.
+
+Set review dates.
+
+Display policy status.
+
+Search policies using natural language.
+
+Show source citations.
+
+AI policy questions
+
+Examples:
+
+How many annual leave days are provided?
+
+What is the work-from-home policy?
+
+What are the working hours?
+
+How can an employee request reimbursement?
+
+What is the employee notice period?
+
+What is the company's laptop usage policy?
+
+Who approves travel expenses?
+
+What are the data security requirements?
+
+The assistant must retrieve answers from uploaded company policies.
+
+Never invent company rules, leave entitlements, salary information, approval procedures or compliance requirements.
+
+If the information is not available in the uploaded policies, clearly say that it could not be found.
+
+Policy citations
+
+Every policy answer should provide, where available:
+
+Policy document name.
+
+Page number.
+
+Section heading.
+
+Relevant source passage.
+
+Document version.
+
+Example:
+
+Source: Employee_Leave_Policy.pdf
+Page: 6
+Section: 4.2 – Annual Leave
+
+This is an illustrative citation format, not a real company policy.
+
+Policy version management
+
+Support:
+
+Upload new policy version.
+
+View previous versions.
+
+Compare versions.
+
+Highlight changed sections.
+
+Track effective date.
+
+Track review date.
+
+Mark draft, under review or published.
+
+Keep policy administration and approval permissions separate from ordinary employee read access.
+
+11. DOCUMENT INTELLIGENCE MODULE
+
+Create a separate general Documents workspace.
+
+Supported file types:
+
+PDF.
+
+DOCX.
+
+TXT.
+
+CSV.
+
+XLSX.
+
+JSON.
+
+Features:
+
+Drag-and-drop upload.
+
+Browse files.
+
+Document list.
+
+File type and file size.
+
+Processing status.
+
+Document preview.
+
+Document search.
+
+Categories.
+
+Summarization.
+
+Extraction history.
+
+Processing error display.
+
+The general Documents module handles business reports, contracts, manuals, presentations converted to supported formats and other knowledge files.
+
+The Company Policies module provides specialized policy management.
+
+Avoid unnecessary duplication: policy documents can use the shared document processing pipeline while retaining their dedicated policy metadata, access controls and interface.
+
+12. BUSINESS ANALYTICS MODULE
+
+Create a complete Business Analytics workspace.
+
+Support different types of business analysis:
+
+Sales Analytics
+
+Total sales.
+
+Revenue trends.
+
+Orders.
+
+Sales by product.
+
+Sales by region.
+
+Sales by category.
+
+Financial Analytics
+
+Revenue.
+
+Expenses.
+
+Net profit.
+
+Profit margins.
+
+Budget analysis.
+
+Financial trends.
+
+Customer Analytics
+
+Customer growth.
+
+New and returning customers.
+
+Segmentation.
+
+Customer retention.
+
+Purchase behaviour.
+
+Product Analytics
+
+Product performance.
+
+Top-selling products.
+
+Product profitability.
+
+Category analysis.
+
+Inventory Analytics
+
+Stock availability.
+
+Low-stock alerts.
+
+Out-of-stock products.
+
+Inventory turnover.
+
+Marketing Analytics
+
+Campaign performance.
+
+Marketing expenditure.
+
+Conversions.
+
+Customer acquisition.
+
+All numerical calculations must come from verified uploaded data or connected databases.
+
+13. DATA SOURCES MODULE
+
+Create a professional Data Sources and Connections Centre.
+
+Supported file sources
+
+PDF.
+
+DOCX.
+
+TXT.
+
+CSV.
+
+XLSX.
+
+JSON.
+
+Planned database connectors
+
+PostgreSQL.
+
+MySQL.
+
+Each source card should contain:
+
+Source name.
+
+Source type.
+
+Connection status.
+
+Last synchronization.
+
+Connect or upload action.
+
+Processing status.
+
+Error state when relevant.
+
+Allow users to inspect connected sources and manage their connections.
+
+Do not show cloud integrations as connected unless they have actually been configured.
+
+14. AI DASHBOARD GENERATOR
+
+Allow users to create dashboards through natural language.
+
+Example requests:
+
+Create a sales dashboard.
+
+Generate a financial performance dashboard.
+
+Show monthly revenue trends.
+
+Build a product performance dashboard.
+
+Create a customer analytics dashboard.
+
+Generate an inventory dashboard.
+
+Workflow:
+
+User asks for a dashboard.
+
+AI understands the request.
+
+Query router identifies required datasets.
+
+Analytics engine calculates the metrics.
+
+Dashboard generator creates a validated chart specification.
+
+Frontend renders interactive charts.
+
+AI explains the results.
+
+Support:
+
+Add widgets.
+
+Remove widgets.
+
+Rearrange widgets.
+
+Resize charts.
+
+Save dashboard.
+
+Edit dashboard.
+
+Export dashboard.
+
+Share dashboard subject to permissions.
+
+Never let the LLM invent metrics or directly execute unrestricted generated SQL.
+
+15. AI REPORT GENERATOR
+
+Create a dedicated Reports module.
+
+Report types
+
+Monthly Business Report.
+
+Quarterly Business Report.
+
+Annual Business Report.
+
+Sales Report.
+
+Revenue Report.
+
+Financial Report.
+
+Product Performance Report.
+
+Customer Insights Report.
+
+Inventory Report.
+
+Marketing Report.
+
+Company Policy Summary.
+
+Policy Comparison Report.
+
+Custom AI Report.
+
+Features:
+
+Generate report.
+
+Select report type.
+
+Choose date range.
+
+Select data sources.
+
+Generate executive summary.
+
+Display key findings.
+
+Include charts and tables.
+
+Preview report.
+
+Download PDF.
+
+Download Excel.
+
+Download CSV.
+
+Reports must use actual processed information and cite document sources where appropriate.
+
+16. VOICE AI ASSISTANT
+
+Voice functionality is mandatory.
+
+Create an advanced, premium voice assistant integrated into the persistent Nexa AI panel.
+
+The user should be able to ask questions by speaking naturally.
+
+Voice interface
+
+Include:
+
+Microphone button.
+
+Animated audio waveform.
+
+Listening indicator.
+
+Speech transcription.
+
+Stop listening.
+
+Send voice question.
+
+AI speaking indicator.
+
+Replay audio.
+
+Stop playback.
+
+Language selection.
+
+Supported language options:
+
+English.
+
+Telugu.
+
+Hindi.
+
+Actual language and voice availability depends on the selected speech service and browser.
+
+Voice workflow
+
+User speaks
+→ Speech-to-text
+→ Text transcription
+→ Intelligent query router
+→ Company Policies RAG / Document RAG / SQL Analytics / Dashboard Generator
+→ Gemini AI response
+→ Text-to-speech
+→ Spoken answer.
+
+Voice examples
+
+User: "Explain my company's leave policy."
+
+AI retrieves the uploaded leave policy and speaks the grounded answer with its document citation.
+
+User: "Show me the top five products by revenue."
+
+AI analyzes the actual dataset, displays a product chart and speaks a short summary.
+
+User: "Generate a monthly business report."
+
+AI creates the report and speaks a brief confirmation when the report is ready.
+
+The application must show the written transcription and answer even when voice playback is enabled.
+
+Allow users to stop playback and request a shorter spoken summary.
+
+For the first frontend prototype, use browser speech APIs where supported. Provide a text-input fallback when microphone or speech recognition is unavailable.
+
+Do not claim production cloud voice integration before the speech backend is implemented.
+
+17. SETTINGS MODULE
+
+Create a professional Settings workspace.
+
+Include:
+
+Workspace
+
+Workspace name.
+
+Workspace profile.
+
+Organization settings.
+
+User management
+
+User profiles.
+
+Roles.
+
+Permissions.
+
+Department membership.
+
+Access control
+
+Document permissions.
+
+Company policy access.
+
+Workspace-level data isolation.
+
+Role-based access control.
+
+AI configuration
+
+AI preferences.
+
+Model configuration.
+
+API configuration status.
+
+Voice settings
+
+Language.
+
+Voice selection where supported.
+
+Speech playback.
+
+Microphone preferences.
+
+Security
+
+Authentication.
+
+Audit logs.
+
+API key management.
+
+Session management.
+
+Data retention settings.
+
+Never expose API keys or secrets in frontend code.
+
+18. INTELLIGENT AI QUERY ROUTER
+
+Create a backend-ready query routing architecture.
+
+The router should identify the user's intent and select the correct processing path.
+
+Route A: Company Policy RAG
+
+For questions about:
+
+HR.
+
+Leave.
+
+Attendance.
+
+Work-from-home.
+
+Finance policies.
+
+IT policies.
+
+Legal and compliance.
+
+Route B: General Document RAG
+
+For questions about:
+
+Contracts.
+
+Reports.
+
+Manuals.
+
+Business documents.
+
+Uploaded knowledge files.
+
+Route C: Business Analytics
+
+For questions involving:
+
+Revenue.
+
+Sales.
+
+Orders.
+
+Customers.
+
+Inventory.
+
+Profit.
+
+Expenses.
+
+Use SQL or Pandas for numerical calculations.
+
+Route D: Dashboard Generator
+
+For requests to create or modify dashboards and charts.
+
+Route E: Report Generator
+
+For requests to generate downloadable reports.
+
+Route F: Combined Intelligence
+
+For questions that need both documents and structured data.
+
+Example:
+"Compare our travel reimbursement policy with the actual travel expenses."
+
+Retrieve the policy evidence and calculate actual expenses separately, then provide a grounded combined explanation.
+
+The router must respect workspace permissions and document access rules.
+
+19. BACKEND ARCHITECTURE
+
+Build a modular FastAPI backend.
+
+Suggested structure:
+
+backend/
+
+api/
+
+authentication/
+
+company_policies/
+
+document_processing/
+
+rag/
+
+embeddings/
+
+vector_store/
+
+analytics/
+
+query_router/
+
+dashboard_generator/
+
+report_generator/
+
+voice/
+
+database/
+
+models/
+
+schemas/
+
+services/
+
+tests/
+
+main.py
+
+Company Policies backend
+
+policy_upload.py
+
+policy_extraction.py
+
+policy_chunking.py
+
+policy_retrieval.py
+
+policy_citations.py
+
+policy_versions.py
+
+policy_permissions.py
+
+Document RAG pipeline
+
+Receive uploaded documents.
+
+Validate file types and sizes.
+
+Extract document content.
+
+Split content into meaningful chunks.
+
+Preserve metadata and page references.
+
+Generate embeddings.
+
+Store embeddings in ChromaDB.
+
+Retrieve relevant content.
+
+Generate grounded Gemini answers.
+
+Return source citations.
+
+Business data pipeline
+
+Receive CSV, XLSX or JSON.
+
+Validate the dataset.
+
+Inspect column types.
+
+Profile the data.
+
+Clean and normalize data where authorized.
+
+Store structured information.
+
+Run validated SQL or Pandas analytics.
+
+Return metrics and chart specifications.
+
+Gemini integration
+
+Gemini must:
+
+Understand questions.
+
+Classify query intent.
+
+Summarize documents.
+
+Explain verified calculations.
+
+Generate grounded answers.
+
+Generate report narratives.
+
+Support dashboard generation.
+
+Use environment variables for API credentials. Never expose secrets in React.
+
+20. DATABASE AND SECURITY
+
+Use PostgreSQL for structured application data.
+
+Use ChromaDB for document embeddings.
+
+Design for multi-tenant workspaces.
+
+Security requirements:
+
+Authentication.
+
+Role-based access control.
+
+Workspace isolation.
+
+Document-level permissions.
+
+Company policy access control.
+
+Secure file upload validation.
+
+Audit logging.
+
+Safe database queries.
+
+Read-only analytics permissions by default.
+
+No unrestricted LLM-generated SQL execution.
+
+No unrestricted AI-generated code execution.
+
+Secure API key storage.
+
+Appropriate handling of voice recordings and transcripts.
+
+Audio must not be permanently recorded by default. Clearly indicate when the microphone is active.
+
+21. RESPONSIVE DESIGN
+
+Desktop
+
+Full sidebar.
+
+Top toolbar.
+
+Central dashboard.
+
+Persistent right-side AI assistant.
+
+Tablet
+
+Collapsible sidebar.
+
+Responsive chart layout.
+
+AI assistant drawer.
+
+Mobile
+
+Compact navigation.
+
+Single-column dashboard.
+
+Full-screen assistant.
+
+Large microphone control.
+
+Touch-friendly filters.
+
+Responsive document lists.
+
+Avoid horizontal overflow and clipped content.
+
+22. FRONTEND COMPONENT STRUCTURE
+
+frontend/src/
+
+components/
+
+Sidebar.jsx
+
+Topbar.jsx
+
+AIAssistant.jsx
+
+VoiceAssistant.jsx
+
+MessageBubble.jsx
+
+ChatInput.jsx
+
+KPICards.jsx
+
+DashboardFilters.jsx
+
+PolicyCard.jsx
+
+DocumentCard.jsx
+
+FileUploader.jsx
+
+ChartCard.jsx
+
+ReportCard.jsx
+
+components/charts/
+
+RevenueChart.jsx
+
+CategoryChart.jsx
+
+ProductChart.jsx
+
+CustomerChart.jsx
+
+InventoryChart.jsx
+
+pages/
+
+Dashboard.jsx
+
+Assistant.jsx
+
+CompanyPolicies.jsx
+
+Documents.jsx
+
+Analytics.jsx
+
+DataSources.jsx
+
+Reports.jsx
+
+Settings.jsx
+
+services/
+
+api.js
+
+aiService.js
+
+voiceService.js
+
+policyService.js
+
+documentService.js
+
+analyticsService.js
+
+reportService.js
+
+hooks/
+
+useVoiceAssistant.js
+
+useChat.js
+
+useDashboard.js
+
+layouts/
+
+MainLayout.jsx
+
+App.jsx
+main.jsx
+index.css
+
+23. FUNCTIONALITY REQUIREMENTS
+
+Every important control must work in the frontend.
+
+Implement:
+
+Sidebar navigation.
+
+Workspace selector interface.
+
+Global search.
+
+Dashboard filters.
+
+Interactive charts.
+
+AI chat input.
+
+Suggested questions.
+
+Browser voice input where supported.
+
+Text-to-speech playback.
+
+Stop and replay controls.
+
+Document uploads.
+
+Policy uploads.
+
+Policy categories.
+
+Policy search.
+
+Policy document preview.
+
+Version comparison interface.
+
+Data source connection interface.
+
+Dashboard edit and view modes.
+
+Save feedback.
+
+Share dialog.
+
+Report preview.
+
+Report downloads where implemented.
+
+Do not create decorative buttons that pretend to perform real actions.
+
+For features requiring backend services, display a clear demo or not-connected status.
+
+24. DEMO DATA REQUIREMENTS
+
+Provide realistic sample datasets for the first frontend demonstration.
+
+Sample data should include:
+
+Sales.
+
+Revenue.
+
+Products.
+
+Orders.
+
+Customers.
+
+Inventory.
+
+Business expenses.
+
+Example company policy documents.
+
+Clearly mark all demonstration metrics and example policies as sample content.
+
+Never present fictional company rules as actual company policy.
+
+Keep sample data in separate files so real backend API responses can replace it later.
+
+25. FINAL USER EXPERIENCE
+
+The user should be able to:
+
+Open the NexaKnowledge AI dashboard.
+
+View business KPIs.
+
+Filter and explore business charts.
+
+Open the AI assistant.
+
+Ask questions using text.
+
+Ask questions using voice.
+
+Upload company policies.
+
+Ask questions about company policies.
+
+Receive answers with citations.
+
+Upload general documents.
+
+Search and summarize documents.
+
+Upload business datasets.
+
+Analyze business performance.
+
+Generate dashboards through natural language.
+
+Generate business and policy reports.
+
+Download PDF, Excel and CSV reports.
+
+Manage workspace settings and permissions.
+
+26. DEVELOPMENT PHASES
+
+Build the project in the following order.
+
+Phase 1: Complete frontend and dark enterprise dashboard.
+
+Phase 2: Sidebar navigation and all eight functional module interfaces.
+
+Phase 3: Company Policies workspace and policy management UI.
+
+Phase 4: General document upload and document processing.
+
+Phase 5: FastAPI backend and PostgreSQL integration.
+
+Phase 6: LangChain, Gemini and ChromaDB RAG pipeline.
+
+Phase 7: Company Policy RAG and source citations.
+
+Phase 8: Business analytics and validated SQL/Pandas calculations.
+
+Phase 9: Unified AI assistant and intelligent query router.
+
+Phase 10: Voice assistant with speech-to-text and text-to-speech.
+
+Phase 11: AI dashboard generation and dynamic charts.
+
+Phase 12: PDF, Excel and CSV report generation.
+
+Phase 13: Authentication, security, testing and permissions.
+
+Phase 14: Docker and Google Cloud Run deployment.
+
+27. FINAL EXPECTED DELIVERABLE
+
+Build a complete, polished NexaKnowledge AI application.
+
+The main screen must include:
+
+Dark enterprise design.
+
+Left navigation sidebar with eight modules.
+
+Top toolbar.
+
+Business dashboard.
+
+Three interactive filters.
+
+Four KPI cards.
+
+Five interactive business charts.
+
+Permanent right-side AI assistant.
+
+Voice assistant with microphone and audio waveform.
+
+The application must also include dedicated interfaces for:
+
+Company Policies.
+
+Documents.
+
+Business Analytics.
+
+Data Sources.
+
+Reports.
+
+Settings.
+
+Company Policies must be a first-class feature, with its own navigation, policy library, categories, document management, version comparison, review status, AI search and citations.
+
+The AI and voice assistants must be accessible across the application.
+
+Use modular, maintainable, reusable code.
+
+Build a working frontend first. Test it locally, fix errors, and explain how to run it.
+
+After frontend completion, integrate the backend services step by step.
+
+FINAL PRODUCT IDENTITY:
+
+NexaKnowledge AI is not just a chatbot, a document search engine or a sales dashboard.
+
+It is an integrated Enterprise AI Knowledge, Company Policy and Business Intelligence Platform.
+
+Your Business. Your Data. One Intelligent AI.

@@ -1,0 +1,6 @@
+{
+  "name": "NexaKnowledge AI",
+  "description": "Enterprise AI Knowledge, Company Policy & Business Intelligence Platform. Your Business. Your Data. One Intelligent AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
